@@ -446,7 +446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0":
+"@types/react-dom@npm:18.0.5":
   version: 18.0.5
   resolution: "@types/react-dom@npm:18.0.5"
   dependencies:
@@ -455,7 +455,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.0":
+"@types/react@npm:*":
+  version: 18.0.13
+  resolution: "@types/react@npm:18.0.13"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: ef976dbcd5605f3b8db2b286b1b35471d574dca711a2b6928c164075efd3ee731b3f32708f1ae09cfb04b003f9a4a9774cc386c32688f7fae864ea53a1c238f6
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.12":
   version: 18.0.12
   resolution: "@types/react@npm:18.0.12"
   dependencies:
@@ -473,7 +484,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^1.3.0":
+"@vitejs/plugin-react@npm:1.3.2":
   version: 1.3.2
   resolution: "@vitejs/plugin-react@npm:1.3.2"
   dependencies:
@@ -603,7 +614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.7":
+"autoprefixer@npm:10.4.7":
   version: 10.4.7
   resolution: "autoprefixer@npm:10.4.7"
   dependencies:
@@ -1937,7 +1948,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.13, postcss@npm:^8.4.14":
+"postcss@npm:8.4.14, postcss@npm:^8.4.13, postcss@npm:^8.4.14":
   version: 8.4.14
   resolution: "postcss@npm:8.4.14"
   dependencies:
@@ -1983,20 +1994,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rawg-react-client@workspace:."
   dependencies:
-    "@types/react": ^18.0.0
-    "@types/react-dom": ^18.0.0
-    "@vitejs/plugin-react": ^1.3.0
-    autoprefixer: ^10.4.7
-    postcss: ^8.4.14
-    react: ^18.0.0
-    react-dom: ^18.0.0
-    react-router-dom: ^6.3.0
-    tailwindcss: ^3.1.3
-    vite: ^2.9.9
+    "@types/react": 18.0.12
+    "@types/react-dom": 18.0.5
+    "@vitejs/plugin-react": 1.3.2
+    autoprefixer: 10.4.7
+    postcss: 8.4.14
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-router-dom: 6.3.0
+    tailwindcss: 3.1.3
+    vite: 2.9.9
   languageName: unknown
   linkType: soft
 
-"react-dom@npm:^18.0.0":
+"react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -2015,7 +2026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.3.0":
+"react-router-dom@npm:6.3.0":
   version: 6.3.0
   resolution: "react-router-dom@npm:6.3.0"
   dependencies:
@@ -2039,7 +2050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.0.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -2311,7 +2322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1.3":
+"tailwindcss@npm:3.1.3":
   version: 3.1.3
   resolution: "tailwindcss@npm:3.1.3"
   dependencies:
@@ -2401,9 +2412,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.9":
-  version: 2.9.12
-  resolution: "vite@npm:2.9.12"
+"vite@npm:2.9.9":
+  version: 2.9.9
+  resolution: "vite@npm:2.9.9"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -2426,7 +2437,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 33cf8b6bfbbcae4b7f856d739ae519bed6b1ce23fc652ca98db1d4878bf35424885951c13e0d2536248423a0836d91ef7cae744ff40cbcbd6e7ffe495bd15ea5
+  checksum: 9292b8ba510a393d0c61c407ebfb4eaa818b2d8d106b3476cdc94cb57a0c59348a535936d698db04b35910a1cfdb16aeaf872f0f995b54cf6d7ed31bc7886deb
   languageName: node
   linkType: hard
 
